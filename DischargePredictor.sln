@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DischargePredictor.Trainer", "DischargePredictor.Trainer\DischargePredictor.Trainer.csproj", "{F133C192-1D4B-44AF-8C6D-0E258C573CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DischargePredictor.ConsoleApp", "DischargePredictor.ConsoleApp\DischargePredictor.ConsoleApp.csproj", "{20A4E306-C0B3-4027-974F-05F4E1483FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DischargePredictor.Model", "DischargePredictor.Model\DischargePredictor.Model.csproj", "{89F1EAB8-0212-4884-A50C-43252F174AE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F133C192-1D4B-44AF-8C6D-0E258C573CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F133C192-1D4B-44AF-8C6D-0E258C573CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F133C192-1D4B-44AF-8C6D-0E258C573CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F133C192-1D4B-44AF-8C6D-0E258C573CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A4E306-C0B3-4027-974F-05F4E1483FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A4E306-C0B3-4027-974F-05F4E1483FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A4E306-C0B3-4027-974F-05F4E1483FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A4E306-C0B3-4027-974F-05F4E1483FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F1EAB8-0212-4884-A50C-43252F174AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F1EAB8-0212-4884-A50C-43252F174AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F1EAB8-0212-4884-A50C-43252F174AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F1EAB8-0212-4884-A50C-43252F174AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
