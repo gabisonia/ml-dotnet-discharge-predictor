@@ -19,7 +19,7 @@ var admissionType = AnsiConsole.Prompt(
 var age = AnsiConsole.Prompt(
     new TextPrompt<int>("Enter [green]Age[/]:")
         .PromptStyle("green")
-        .Validate(age => age >= 0 && age <= 120 ? ValidationResult.Success() : ValidationResult.Error("[red]Invalid age[/]")));
+        .Validate(age => age is >= 0 and <= 120 ? ValidationResult.Success() : ValidationResult.Error("[red]Invalid age[/]")));
 
 var pastHospitalizations = AnsiConsole.Prompt(
     new TextPrompt<int>("Enter [green]Number of Past Hospitalizations[/]:")
