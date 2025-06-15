@@ -1,4 +1,4 @@
-# Patient Length of Stay Predictor
+# Patient LoS/Discharge Predictor
 
 This project uses **ML.NET** to predict how many days a patient with a heart-related diagnosis will stay in the hospital.
 
