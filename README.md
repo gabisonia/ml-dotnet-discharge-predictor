@@ -27,7 +27,7 @@ It’s built as an interactive terminal app with dropdowns for diagnosis and adm
 
 ## Dataset Info
 
-The training dataset `heart_patients_stronger.csv` is synthetically generated to mimic real hospital patterns, including:
+The training dataset `input.csv` is synthetically generated to mimic real hospital patterns, including:
 - Diagnosis-based base duration
 - Age-based modifier
 - Admission type effect
